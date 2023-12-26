@@ -152,178 +152,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="pipico">
-<description>Raspberry Pi Pico microcontroller board library</description>
-<packages>
-<package name="FT_RASPBERRY-PI-PICO_TH">
-<description>Raspberry Pi Pico through-hole footprint</description>
-<wire x1="-10.16" y1="25.4" x2="10.84" y2="25.4" width="0.127" layer="21"/>
-<wire x1="10.84" y1="25.4" x2="10.84" y2="-25.6" width="0.127" layer="21"/>
-<wire x1="10.84" y1="-25.6" x2="-10.16" y2="-25.6" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-25.6" x2="-10.16" y2="25.4" width="0.127" layer="21"/>
-<pad name="1" x="-8.55" y="24.03" drill="1"/>
-<pad name="2" x="-8.55" y="21.49" drill="1"/>
-<pad name="3" x="-8.55" y="18.95" drill="1"/>
-<pad name="4" x="-8.55" y="16.41" drill="1"/>
-<pad name="5" x="-8.55" y="13.87" drill="1"/>
-<pad name="6" x="-8.55" y="11.33" drill="1"/>
-<pad name="7" x="-8.55" y="8.79" drill="1"/>
-<pad name="8" x="-8.55" y="6.25" drill="1"/>
-<pad name="9" x="-8.55" y="3.71" drill="1"/>
-<pad name="10" x="-8.55" y="1.17" drill="1"/>
-<pad name="11" x="-8.55" y="-1.37" drill="1"/>
-<pad name="12" x="-8.55" y="-3.91" drill="1"/>
-<pad name="13" x="-8.55" y="-6.45" drill="1"/>
-<pad name="14" x="-8.55" y="-8.99" drill="1"/>
-<pad name="15" x="-8.55" y="-11.53" drill="1"/>
-<pad name="16" x="-8.55" y="-14.07" drill="1"/>
-<pad name="17" x="-8.55" y="-16.61" drill="1"/>
-<pad name="18" x="-8.55" y="-19.15" drill="1"/>
-<pad name="19" x="-8.55" y="-21.69" drill="1"/>
-<pad name="20" x="-8.55" y="-24.23" drill="1"/>
-<pad name="40" x="9.23" y="24.03" drill="1"/>
-<pad name="39" x="9.23" y="21.49" drill="1"/>
-<pad name="38" x="9.23" y="18.95" drill="1"/>
-<pad name="37" x="9.23" y="16.41" drill="1"/>
-<pad name="36" x="9.23" y="13.87" drill="1"/>
-<pad name="35" x="9.23" y="11.33" drill="1"/>
-<pad name="34" x="9.23" y="8.79" drill="1"/>
-<pad name="33" x="9.23" y="6.25" drill="1"/>
-<pad name="32" x="9.23" y="3.71" drill="1"/>
-<pad name="31" x="9.23" y="1.17" drill="1"/>
-<pad name="30" x="9.23" y="-1.37" drill="1"/>
-<pad name="29" x="9.23" y="-3.91" drill="1"/>
-<pad name="28" x="9.23" y="-6.45" drill="1"/>
-<pad name="27" x="9.23" y="-8.99" drill="1"/>
-<pad name="26" x="9.23" y="-11.53" drill="1"/>
-<pad name="25" x="9.23" y="-14.07" drill="1"/>
-<pad name="24" x="9.23" y="-16.61" drill="1"/>
-<pad name="23" x="9.23" y="-19.15" drill="1"/>
-<pad name="22" x="9.23" y="-21.69" drill="1"/>
-<pad name="21" x="9.23" y="-24.23" drill="1"/>
-<pad name="SWCLK" x="-2.2" y="-24" drill="1"/>
-<pad name="GND" x="0.34" y="-24" drill="1"/>
-<pad name="SWDIO" x="2.88" y="-24" drill="1"/>
-<wire x1="-4.16" y1="26.4" x2="4.84" y2="26.4" width="0.127" layer="21"/>
-<wire x1="4.84" y1="26.4" x2="4.84" y2="21.4" width="0.127" layer="21"/>
-<wire x1="4.84" y1="21.4" x2="-4.16" y2="21.4" width="0.127" layer="21"/>
-<wire x1="-4.16" y1="26.4" x2="-4.16" y2="21.4" width="0.127" layer="21"/>
-<text x="-3.16" y="22.4" size="1.27" layer="21">USB</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SYM_RASPBERRY-PI-PICO">
-<wire x1="-10.16" y1="-25.4" x2="-10.16" y2="27.94" width="0.254" layer="94"/>
-<pin name="1" x="-15.24" y="25.4" length="middle"/>
-<pin name="2" x="-15.24" y="22.86" length="middle"/>
-<pin name="3" x="-15.24" y="20.32" length="middle"/>
-<pin name="4" x="-15.24" y="17.78" length="middle"/>
-<pin name="5" x="-15.24" y="15.24" length="middle"/>
-<pin name="6" x="-15.24" y="12.7" length="middle"/>
-<pin name="7" x="-15.24" y="10.16" length="middle"/>
-<pin name="8" x="-15.24" y="7.62" length="middle"/>
-<pin name="9" x="-15.24" y="5.08" length="middle"/>
-<pin name="10" x="-15.24" y="2.54" length="middle"/>
-<pin name="11" x="-15.24" y="0" length="middle"/>
-<pin name="12" x="-15.24" y="-2.54" length="middle"/>
-<pin name="13" x="-15.24" y="-5.08" length="middle"/>
-<pin name="14" x="-15.24" y="-7.62" length="middle"/>
-<pin name="15" x="-15.24" y="-10.16" length="middle"/>
-<pin name="16" x="-15.24" y="-12.7" length="middle"/>
-<pin name="17" x="-15.24" y="-15.24" length="middle"/>
-<pin name="18" x="-15.24" y="-17.78" length="middle"/>
-<pin name="19" x="-15.24" y="-20.32" length="middle"/>
-<pin name="20" x="-15.24" y="-22.86" length="middle"/>
-<wire x1="-10.16" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-25.4" x2="10.16" y2="27.94" width="0.254" layer="94"/>
-<wire x1="10.16" y1="27.94" x2="-10.16" y2="27.94" width="0.254" layer="94"/>
-<pin name="21" x="15.24" y="-22.86" length="middle" rot="R180"/>
-<pin name="22" x="15.24" y="-20.32" length="middle" rot="R180"/>
-<pin name="23" x="15.24" y="-17.78" length="middle" rot="R180"/>
-<pin name="24" x="15.24" y="-15.24" length="middle" rot="R180"/>
-<pin name="25" x="15.24" y="-12.7" length="middle" rot="R180"/>
-<pin name="26" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="27" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="28" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="29" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="30" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="31" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="32" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="33" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="34" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="35" x="15.24" y="12.7" length="middle" rot="R180"/>
-<pin name="36" x="15.24" y="15.24" length="middle" rot="R180"/>
-<pin name="37" x="15.24" y="17.78" length="middle" rot="R180"/>
-<pin name="38" x="15.24" y="20.32" length="middle" rot="R180"/>
-<pin name="39" x="15.24" y="22.86" length="middle" rot="R180"/>
-<pin name="40" x="15.24" y="25.4" length="middle" rot="R180"/>
-<pin name="SWCLK" x="-2.54" y="-30.48" length="middle" rot="R90"/>
-<pin name="GND" x="0" y="-30.48" length="middle" rot="R90"/>
-<pin name="SWDIO" x="2.54" y="-30.48" length="middle" rot="R90"/>
-<text x="-17.78" y="30.48" size="1.778" layer="95">&gt; Raspberry Pi Pico</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RASPBERRY-PI-PICO_TH">
-<description>Raspberry Pi Pico microcontroller board for through-hole mounting.</description>
-<gates>
-<gate name="G$1" symbol="SYM_RASPBERRY-PI-PICO" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FT_RASPBERRY-PI-PICO_TH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="27" pad="27"/>
-<connect gate="G$1" pin="28" pad="28"/>
-<connect gate="G$1" pin="29" pad="29"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="30" pad="30"/>
-<connect gate="G$1" pin="31" pad="31"/>
-<connect gate="G$1" pin="32" pad="32"/>
-<connect gate="G$1" pin="33" pad="33"/>
-<connect gate="G$1" pin="34" pad="34"/>
-<connect gate="G$1" pin="35" pad="35"/>
-<connect gate="G$1" pin="36" pad="36"/>
-<connect gate="G$1" pin="37" pad="37"/>
-<connect gate="G$1" pin="38" pad="38"/>
-<connect gate="G$1" pin="39" pad="39"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="40" pad="40"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SWCLK" pad="SWCLK"/>
-<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="DFPlayer_v1">
 <packages>
 <package name="DFPLAYER">
@@ -3060,6 +2888,261 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Proper-Pico">
+<packages>
+<package name="PICO-PKG-TH">
+<wire x1="-10.5" y1="25.5" x2="10.5" y2="25.5" width="0.1524" layer="21"/>
+<pad name="1" x="-8.89" y="24.13" drill="1"/>
+<pad name="2" x="-8.89" y="21.59" drill="1"/>
+<pad name="7" x="-8.89" y="8.89" drill="1"/>
+<pad name="8" x="-8.89" y="6.35" drill="1"/>
+<pad name="3" x="-8.89" y="19.05" drill="1"/>
+<pad name="4" x="-8.89" y="16.51" drill="1"/>
+<pad name="6" x="-8.89" y="11.43" drill="1"/>
+<pad name="5" x="-8.89" y="13.97" drill="1"/>
+<pad name="9" x="-8.89" y="3.81" drill="1"/>
+<pad name="10" x="-8.89" y="1.27" drill="1"/>
+<pad name="11" x="-8.89" y="-1.27" drill="1"/>
+<pad name="12" x="-8.89" y="-3.81" drill="1"/>
+<pad name="13" x="-8.89" y="-6.35" drill="1"/>
+<pad name="14" x="-8.89" y="-8.89" drill="1"/>
+<pad name="15" x="-8.89" y="-11.43" drill="1"/>
+<pad name="16" x="-8.89" y="-13.97" drill="1"/>
+<pad name="17" x="-8.89" y="-16.51" drill="1"/>
+<pad name="18" x="-8.89" y="-19.05" drill="1"/>
+<pad name="19" x="-8.89" y="-21.59" drill="1"/>
+<pad name="20" x="-8.89" y="-24.13" drill="1"/>
+<pad name="21" x="8.89" y="-24.13" drill="1"/>
+<pad name="22" x="8.89" y="-21.59" drill="1"/>
+<pad name="23" x="8.89" y="-19.05" drill="1"/>
+<pad name="24" x="8.89" y="-16.51" drill="1"/>
+<pad name="25" x="8.89" y="-13.97" drill="1"/>
+<pad name="26" x="8.89" y="-11.43" drill="1"/>
+<pad name="27" x="8.89" y="-8.89" drill="1"/>
+<pad name="28" x="8.89" y="-6.35" drill="1"/>
+<pad name="29" x="8.89" y="-3.81" drill="1"/>
+<pad name="30" x="8.89" y="-1.27" drill="1"/>
+<pad name="31" x="8.89" y="1.27" drill="1"/>
+<pad name="32" x="8.89" y="3.81" drill="1"/>
+<pad name="33" x="8.89" y="6.35" drill="1"/>
+<pad name="34" x="8.89" y="8.89" drill="1"/>
+<pad name="35" x="8.89" y="11.43" drill="1"/>
+<pad name="36" x="8.89" y="13.97" drill="1"/>
+<pad name="37" x="8.89" y="16.51" drill="1"/>
+<pad name="38" x="8.89" y="19.05" drill="1"/>
+<pad name="39" x="8.89" y="21.59" drill="1"/>
+<pad name="40" x="8.89" y="24.13" drill="1"/>
+<text x="-5.334" y="-21.717" size="1.778" layer="25" rot="R90">Raspberry Pi Pico</text>
+<pad name="41" x="-2.54" y="-23.9" drill="1"/>
+<pad name="42" x="0" y="-23.9" drill="1"/>
+<pad name="43" x="2.54" y="-23.9" drill="1"/>
+<circle x="-12.7" y="25.4" radius="0.635" width="0" layer="21"/>
+<wire x1="-4" y1="26.8" x2="4" y2="26.8" width="0.127" layer="21"/>
+<wire x1="4" y1="26.8" x2="4" y2="20" width="0.127" layer="21"/>
+<wire x1="4" y1="20" x2="-4" y2="20" width="0.127" layer="21"/>
+<wire x1="-4" y1="20" x2="-4" y2="26.8" width="0.127" layer="21"/>
+<wire x1="10.5" y1="-25.5" x2="10.5" y2="-24.63" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-23.63" x2="10.5" y2="-22.09" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-21.09" x2="10.5" y2="-19.55" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-18.55" x2="10.5" y2="-17.01" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-16.01" x2="10.5" y2="-14.47" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-13.47" x2="10.5" y2="-11.93" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-10.93" x2="10.5" y2="-9.39" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-8.39" x2="10.5" y2="-6.85" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-5.85" x2="10.5" y2="-4.31" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-3.31" x2="10.5" y2="-1.77" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-0.77" x2="10.5" y2="0.77" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="1.77" x2="10.5" y2="3.31" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="4.31" x2="10.5" y2="5.85" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="6.85" x2="10.5" y2="8.39" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="9.39" x2="10.5" y2="10.93" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="11.93" x2="10.5" y2="13.47" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="14.47" x2="10.5" y2="16.01" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="17.01" x2="10.5" y2="18.55" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="19.55" x2="10.5" y2="21.09" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="22.09" x2="10.5" y2="23.63" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="24.63" x2="10.5" y2="25.5" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="25.5" x2="-10.5" y2="24.63" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="23.63" x2="-10.5" y2="22.09" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="21.09" x2="-10.5" y2="19.55" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="18.55" x2="-10.5" y2="17.01" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="16.01" x2="-10.5" y2="14.47" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="13.47" x2="-10.5" y2="11.93" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="10.93" x2="-10.5" y2="9.39" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="8.39" x2="-10.5" y2="6.85" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="5.85" x2="-10.5" y2="4.31" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="3.31" x2="-10.5" y2="1.77" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="0.77" x2="-10.5" y2="-0.77" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-1.77" x2="-10.5" y2="-3.31" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-4.31" x2="-10.5" y2="-5.85" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-6.85" x2="-10.5" y2="-8.39" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-9.39" x2="-10.5" y2="-10.93" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-11.93" x2="-10.5" y2="-13.47" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-14.47" x2="-10.5" y2="-16.01" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-17.01" x2="-10.5" y2="-18.55" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-19.55" x2="-10.5" y2="-21.09" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-22.09" x2="-10.5" y2="-23.63" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-24.63" x2="-10.5" y2="-25.5" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="-25.5" x2="3.04" y2="-25.5" width="0.1524" layer="21"/>
+<wire x1="2.04" y1="-25.5" x2="0.5" y2="-25.5" width="0.1524" layer="21"/>
+<wire x1="-0.5" y1="-25.5" x2="-2.04" y2="-25.5" width="0.1524" layer="21"/>
+<wire x1="-3.04" y1="-25.5" x2="-10.5" y2="-25.5" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="22.09" x2="-10.5" y2="21.09" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="24.63" x2="-10.5" y2="23.63" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="19.55" x2="-10.5" y2="18.55" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="17.01" x2="-10.5" y2="16.01" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="14.47" x2="-10.5" y2="13.47" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="11.93" x2="-10.5" y2="10.93" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="9.39" x2="-10.5" y2="8.39" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="6.85" x2="-10.5" y2="5.85" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="4.31" x2="-10.5" y2="3.31" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="1.77" x2="-10.5" y2="0.77" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="-0.77" x2="-10.5" y2="-1.77" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="-3.31" x2="-10.5" y2="-4.31" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="-5.85" x2="-10.5" y2="-6.85" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="-8.39" x2="-10.5" y2="-9.39" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="-10.93" x2="-10.5" y2="-11.93" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="-13.47" x2="-10.5" y2="-14.47" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="-16.01" x2="-10.5" y2="-17.01" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="-18.55" x2="-10.5" y2="-19.55" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="-21.09" x2="-10.5" y2="-22.09" width="0.127" layer="21" curve="-180"/>
+<wire x1="-10.5" y1="-23.63" x2="-10.5" y2="-24.63" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="-24.63" x2="10.5" y2="-23.63" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="-22.09" x2="10.5" y2="-21.09" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="-19.55" x2="10.5" y2="-18.55" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="-17.01" x2="10.5" y2="-16.01" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="-14.47" x2="10.5" y2="-13.47" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="-11.93" x2="10.5" y2="-10.93" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="-9.39" x2="10.5" y2="-8.39" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="-6.85" x2="10.5" y2="-5.85" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="-4.31" x2="10.5" y2="-3.31" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="-1.77" x2="10.5" y2="-0.77" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="0.77" x2="10.5" y2="1.77" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="3.31" x2="10.5" y2="4.31" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="5.85" x2="10.5" y2="6.85" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="8.39" x2="10.5" y2="9.39" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="10.93" x2="10.5" y2="11.93" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="13.47" x2="10.5" y2="14.47" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="16.01" x2="10.5" y2="17.01" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="18.55" x2="10.5" y2="19.55" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="21.09" x2="10.5" y2="22.09" width="0.127" layer="21" curve="-180"/>
+<wire x1="10.5" y1="23.63" x2="10.5" y2="24.63" width="0.127" layer="21" curve="-180"/>
+<wire x1="-0.5" y1="-25.5" x2="0.5" y2="-25.5" width="0.127" layer="21" curve="-180"/>
+<wire x1="2.04" y1="-25.5" x2="3.04" y2="-25.5" width="0.127" layer="21" curve="-180"/>
+<wire x1="-3.04" y1="-25.5" x2="-2.04" y2="-25.5" width="0.127" layer="21" curve="-180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SYM_RASPBERRY-PI-PICO">
+<pin name="GP0" x="-17.78" y="25.4" length="middle"/>
+<pin name="GP1" x="-17.78" y="22.86" length="middle"/>
+<pin name="GND1" x="-17.78" y="20.32" length="middle" direction="pwr"/>
+<pin name="GP2" x="-17.78" y="17.78" length="middle"/>
+<pin name="GP3" x="-17.78" y="15.24" length="middle"/>
+<pin name="GP4" x="-17.78" y="12.7" length="middle"/>
+<pin name="GP5" x="-17.78" y="10.16" length="middle"/>
+<pin name="GND2" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<pin name="GP6" x="-17.78" y="5.08" length="middle"/>
+<pin name="GP7" x="-17.78" y="2.54" length="middle"/>
+<pin name="GP8" x="-17.78" y="0" length="middle"/>
+<pin name="GP9" x="-17.78" y="-2.54" length="middle"/>
+<pin name="GND3" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
+<pin name="GP10" x="-17.78" y="-7.62" length="middle"/>
+<pin name="GP11" x="-17.78" y="-10.16" length="middle"/>
+<pin name="GP12" x="-17.78" y="-12.7" length="middle"/>
+<pin name="GP13" x="-17.78" y="-15.24" length="middle"/>
+<pin name="GND4" x="-17.78" y="-17.78" length="middle" direction="pwr"/>
+<pin name="GP14" x="-17.78" y="-20.32" length="middle"/>
+<pin name="GP15" x="-17.78" y="-22.86" length="middle"/>
+<pin name="GP16" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="GP17" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="GND5" x="17.78" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="GP18" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="GP19" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="GP20" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="GP21" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND6" x="17.78" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="GP22" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="RUN" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="GP26" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="GP27" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="GND7" x="17.78" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="GP28" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="BLANK" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="3V3(OUT)" x="17.78" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="3V3_EN" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="GND8" x="17.78" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSYS" x="17.78" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBUS" x="17.78" y="25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="SWCLK" x="-2.54" y="-30.48" length="middle" rot="R90"/>
+<pin name="GND9" x="0" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="SWDIO" x="2.54" y="-30.48" length="middle" rot="R90"/>
+<wire x1="-12.7" y1="-25.4" x2="12.7" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="12.7" y2="27.94" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="27.94" x2="-12.7" y2="-25.4" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RASPBERRY-PI-PICO">
+<gates>
+<gate name="G$1" symbol="SYM_RASPBERRY-PI-PICO" x="-0.4858125" y="-0.081059375"/>
+</gates>
+<devices>
+<device name="" package="PICO-PKG-TH">
+<connects>
+<connect gate="G$1" pin="3V3(OUT)" pad="36"/>
+<connect gate="G$1" pin="3V3_EN" pad="37"/>
+<connect gate="G$1" pin="BLANK" pad="35"/>
+<connect gate="G$1" pin="GND1" pad="3"/>
+<connect gate="G$1" pin="GND2" pad="8"/>
+<connect gate="G$1" pin="GND3" pad="13"/>
+<connect gate="G$1" pin="GND4" pad="18"/>
+<connect gate="G$1" pin="GND5" pad="23"/>
+<connect gate="G$1" pin="GND6" pad="28"/>
+<connect gate="G$1" pin="GND7" pad="33"/>
+<connect gate="G$1" pin="GND8" pad="38"/>
+<connect gate="G$1" pin="GND9" pad="42"/>
+<connect gate="G$1" pin="GP0" pad="1"/>
+<connect gate="G$1" pin="GP1" pad="2"/>
+<connect gate="G$1" pin="GP10" pad="14"/>
+<connect gate="G$1" pin="GP11" pad="15"/>
+<connect gate="G$1" pin="GP12" pad="16"/>
+<connect gate="G$1" pin="GP13" pad="17"/>
+<connect gate="G$1" pin="GP14" pad="19"/>
+<connect gate="G$1" pin="GP15" pad="20"/>
+<connect gate="G$1" pin="GP16" pad="21"/>
+<connect gate="G$1" pin="GP17" pad="22"/>
+<connect gate="G$1" pin="GP18" pad="24"/>
+<connect gate="G$1" pin="GP19" pad="25"/>
+<connect gate="G$1" pin="GP2" pad="4"/>
+<connect gate="G$1" pin="GP20" pad="26"/>
+<connect gate="G$1" pin="GP21" pad="27"/>
+<connect gate="G$1" pin="GP22" pad="29"/>
+<connect gate="G$1" pin="GP26" pad="31"/>
+<connect gate="G$1" pin="GP27" pad="32"/>
+<connect gate="G$1" pin="GP28" pad="34"/>
+<connect gate="G$1" pin="GP3" pad="5"/>
+<connect gate="G$1" pin="GP4" pad="6"/>
+<connect gate="G$1" pin="GP5" pad="7"/>
+<connect gate="G$1" pin="GP6" pad="9"/>
+<connect gate="G$1" pin="GP7" pad="10"/>
+<connect gate="G$1" pin="GP8" pad="11"/>
+<connect gate="G$1" pin="GP9" pad="12"/>
+<connect gate="G$1" pin="RUN" pad="30"/>
+<connect gate="G$1" pin="SWCLK" pad="41"/>
+<connect gate="G$1" pin="SWDIO" pad="43"/>
+<connect gate="G$1" pin="VBUS" pad="40"/>
+<connect gate="G$1" pin="VSYS" pad="39"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3070,7 +3153,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="pipico" deviceset="RASPBERRY-PI-PICO_TH" device=""/>
 <part name="U$2" library="DFPlayer_v1" deviceset="DFPLAYER" device=""/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ_KIT-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39661/2" value="1k"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/2" value="SPK -/+ MAX 3W"/>
@@ -3079,6 +3161,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM-KIT"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/2" value="POWER -/+ 4,5v"/>
 <part name="S4" library="SparkFun-Retired" deviceset="SWITCH-SPDT" device="SMD"/>
+<part name="U$1" library="Proper-Pico" deviceset="RASPBERRY-PI-PICO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3086,11 +3169,10 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <text x="-35.56" y="109.22" size="1.778" layer="91">DFPlayer mini</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="-22.86" y="48.26" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="-22.86" y="93.98" smashed="yes"/>
-<instance part="R1" gate="G$1" x="-48.26" y="101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="-48.26" y="100.076" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-48.26" y="103.124" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="U$2" gate="G$1" x="-25.4" y="93.98" smashed="yes"/>
+<instance part="R1" gate="G$1" x="-50.8" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="-50.8" y="100.076" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="-50.8" y="103.124" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="J1" gate="J1" x="-55.88" y="86.36" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="81.534" size="1.778" layer="96" font="vector"/>
@@ -3113,6 +3195,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <attribute name="NAME" x="-1.905" y="74.93" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-2.54" y="77.47" size="1.778" layer="96"/>
 </instance>
+<instance part="U$1" gate="G$1" x="-25.4" y="48.26" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -3121,17 +3204,17 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="RX"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-43.18" y1="101.6" x2="-40.64" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="101.6" x2="-43.18" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="36"/>
 <wire x1="-7.62" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="63.5" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="111.76" x2="-40.64" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="111.76" x2="-43.18" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="-40.64" y1="111.76" x2="-40.64" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="111.76" x2="-43.18" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="3V3(OUT)"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3139,32 +3222,32 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <pinref part="J1" gate="J1" pin="2"/>
 <wire x1="-48.26" y1="88.9" x2="-48.26" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="SPK_1"/>
-<wire x1="-48.26" y1="91.44" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="91.44" x2="-43.18" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="J1" gate="J1" pin="1"/>
 <pinref part="U$2" gate="G$1" pin="SPK_2"/>
-<wire x1="-48.26" y1="86.36" x2="-40.64" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="86.36" x2="-43.18" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-53.34" y1="101.6" x2="-68.58" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="-55.88" y1="101.6" x2="-68.58" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="101.6" x2="-68.58" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="73.66" x2="-38.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="73.66" x2="-43.18" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GP0"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="TX"/>
-<wire x1="-40.64" y1="99.06" x2="-66.04" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="99.06" x2="-66.04" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="99.06" x2="-66.04" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="71.12" x2="-38.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="71.12" x2="-43.18" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GP1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -3172,7 +3255,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <pinref part="U$2" gate="G$1" pin="GND_2"/>
 <wire x1="-5.08" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="25.4" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="88.9" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="88.9" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="1"/>
 <pinref part="S2" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="38.1" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
@@ -3183,47 +3266,47 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <pinref part="S3" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="38.1" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
 <junction x="7.62" y="38.1"/>
-<pinref part="U$1" gate="G$1" pin="23"/>
 <wire x1="-5.08" y1="30.48" x2="-7.62" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-5.08" y="30.48"/>
+<pinref part="U$1" gate="G$1" pin="GND5"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="27"/>
 <wire x1="-7.62" y1="40.64" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="40.64" x2="-2.54" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GP21"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="26"/>
 <pinref part="S2" gate="G$1" pin="2"/>
 <wire x1="-7.62" y1="38.1" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GP20"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="25"/>
 <wire x1="-7.62" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="35.56" x2="-2.54" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GP19"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="39"/>
 <pinref part="S4" gate="1" pin="P"/>
 <wire x1="-7.62" y1="71.12" x2="-2.54" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="71.12" x2="-2.54" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VSYS"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="38"/>
 <pinref part="J2" gate="J1" pin="1"/>
 <wire x1="-7.62" y1="68.58" x2="7.62" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND8"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -3236,6 +3319,21 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="204,1,-43.18,68.58,U$1,GND1,,,,"/>
+<approved hash="204,1,-43.18,55.88,U$1,GND2,,,,"/>
+<approved hash="204,1,-43.18,43.18,U$1,GND3,,,,"/>
+<approved hash="204,1,-43.18,30.48,U$1,GND4,,,,"/>
+<approved hash="104,1,-7.62,30.48,U$1,GND5,N$8,,,"/>
+<approved hash="204,1,-7.62,43.18,U$1,GND6,,,,"/>
+<approved hash="204,1,-7.62,55.88,U$1,GND7,,,,"/>
+<approved hash="104,1,-7.62,63.5,U$1,3V3(OUT),N$3,,,"/>
+<approved hash="104,1,-7.62,68.58,U$1,GND8,N$13,,,"/>
+<approved hash="104,1,-7.62,71.12,U$1,VSYS,N$11,,,"/>
+<approved hash="204,1,-7.62,73.66,U$1,VBUS,,,,"/>
+<approved hash="204,1,-25.4,17.78,U$1,GND9,,,,"/>
+<approved hash="113,1,1.27,73.66,S4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
